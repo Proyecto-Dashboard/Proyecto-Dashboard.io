@@ -15,11 +15,11 @@ async function getData() {
 
 async function createChart() {
     // Get the data from the API
-    const data = await getData();
+    const dato = await getData();
 
     // Get the labels (x-axis) and data (y-axis) for the chart
-    const labels = data.map((coin) => coin.name);
-    const chartData = data.map((coin) => coin.current_price);
+    const labels = dato.map((coin) => coin.name);
+    const chartData = dato.map((coin) => coin.current_price);
 
     // Create the chart
     const ctx = document.getElementById("chart");
