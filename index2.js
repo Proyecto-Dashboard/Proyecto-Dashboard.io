@@ -26,8 +26,8 @@ async function createChart2() {
 
 
     // Create the chart
-    const ctx = document.getElementById("chart2");
-    const charts = new Chart(ctx, {
+    const contexto = document.getElementById("chart2");
+    const charts = new Chart(contexto, {
         type: "bar",
         data: {
             labels: labels2,

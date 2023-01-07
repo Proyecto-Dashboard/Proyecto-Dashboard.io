@@ -22,8 +22,8 @@ async function createChart() {
     const chartData = dato.map((coin) => coin.current_price);
 
     // Create the chart
-    const ctx = document.getElementById("chart");
-    const charts = new Chart(ctx, {
+    const contexto = document.getElementById("chart");
+    const charts = new Chart(contexto, {
         type: "doughnut",
         data: {
             labels: labels,
@@ -53,3 +53,5 @@ async function createChart() {
 
 // Call the createChart function when the page loads
 createChart();
+
+module.exports = { contexto, charts };

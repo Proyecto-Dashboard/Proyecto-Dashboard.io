@@ -1,2 +1,6 @@
-const body = require("/.index3")
+const { context, charts } = require("./index");
+
+context();
+charts();
+
 
