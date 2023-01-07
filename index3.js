@@ -21,4 +21,3 @@ modeSwitch.addEventListener("click", () => {
     } else { modeText.innerText = "Dark Mode" }
 });
 
-module.exports = (body)
