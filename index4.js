@@ -1,6 +1,5 @@
-const { context, charts } = require("./index");
-
-context();
-charts();
+import { createChart } from "./index.js";
 
 
+
+createChart();

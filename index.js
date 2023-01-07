@@ -52,6 +52,6 @@ async function createChart() {
 }
 
 // Call the createChart function when the page loads
-createChart();
+// createChart();
 
-module.exports = { contexto, charts };
+export { createChart };
